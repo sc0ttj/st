@@ -5,12 +5,17 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVuSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font = "DejaVu Sans Mono:pixelsize=16:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = {
-	"DejaVuSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true",
-	"UbuntuMono Nerd Font:pixelsize=14:antialias=true:autohint=true",
+	"Arundina Sans Mono:pixelsize=16:antialias=true:autohint=true",
+	"DejaVuSansMono Nerd Font:pixelsize=16:antialias=true:autohint=true",
+  "Inconsolata:pixelsize=16:antialias=true:autohint=true"
+	"Inconsolata Nerd Font:pixelsize=16:antialias=true:autohint=true",
+	"UbuntuMono:pixelsize=16:antialias=true:autohint=true",
+	"UbuntuMono Nerd Font:pixelsize=16:antialias=true:autohint=true",
+	"Symbola:pixelsize=16:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
