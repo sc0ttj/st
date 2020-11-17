@@ -3,6 +3,27 @@ st - simple terminal
 st is a simple terminal emulator for X which sucks less.
 
 
+## CHANGES IN THIS FORK
+
+Here are the patches that were applied:
+
+- Added: support "scrollback" through terminal output, using Shift-PageUp (st-scrollback-20200419-72e3f6c.diff)
+- Added: highlight text put it straight into clipboard (st-clipboard-0.8.3.diff)
+- Added: Ctrl-Shift-Return spawns new terminal in current dir (st-newterm-0.8.2.diff)
+- Added: Support multiple fonts (st-font2-20190416-ba72400.diff)
+- Added: command line option to choose initial working dir (st-workingdir-20200317-51e19ea.diff)
+- Added: menu entry (st-desktopentry-0.8.2.diff)
+- Fixes handling of Backspace and delete (st-delkey-20160727-308bfbf.diff)
+- Fixes highlight of hidden text on selection (st-spoiler-20180309-c5ba9c0.diff)
+- Fixes window resizing & alignment issues (st-anysize-0.8.1.diff)
+- Fixes vertical aligment of text in terminal (st-vertcenter-20180320-6ac8c8a.diff)
+- Fixes w3m browser image support (st-w3m-0.8.3.diff)
+- Fixes some redrawing errors (st-xclearwin-20200419-6ee7143.diff)
+
+End of the fork.
+
+---
+
 Requirements
 ------------
 In order to build st you need the Xlib header files.
